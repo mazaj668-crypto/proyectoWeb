@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexusPlay Wishlist</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="header">
+    <h1>NexusPlay</h1>
+    <p>Administra tu lista de deseos de videojuegos</p>
+</header>
+
+<main class="container">
+
+    <section class="form-section">
+        <h2>Agregar Videojuego</h2>
+
+        <form id="gameForm">
+
+            <div class="form-group">
+                <label for="nombre">Nombre del videojuego</label>
+                <input type="text" id="nombre">
+                <small class="error" id="errorNombre"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="genero">Género</label>
+                <select id="genero">
+                    <option value="">Seleccione...</option>
+                    <option>RPG</option>
+                    <option>MOBA</option>
+                    <option>FPS</option>
+                    <option>Aventura</option>
+                    <option>Acción</option>
+                </select>
+                <small class="error" id="errorGenero"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="plataforma">Plataforma</label>
+                <select id="plataforma">
+                    <option value="">Seleccione...</option>
+                    <option>PC</option>
+                    <option>PlayStation</option>
+                    <option>Xbox</option>
+                    <option>Nintendo Switch</option>
+                </select>
+                <small class="error" id="errorPlataforma"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="fecha">Fecha deseada</label>
+                <input type="date" id="fecha">
+                <small class="error" id="errorFecha"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="prioridad">Prioridad</label>
+                <select id="prioridad">
+                    <option value="">Seleccione...</option>
+                    <option>Alta</option>
+                    <option>Media</option>
+                    <option>Baja</option>
+                </select>
+                <small class="error" id="errorPrioridad"></small>
+            </div>
+
+            <button type="submit" id="btnGuardar">Guardar</button>
+
+        </form>
+    </section>
+
+    <section class="list-section">
+        <h2>Mis videojuegos</h2>
+        <div id="listaJuegos"></div>
+    </section>
+
+</main>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

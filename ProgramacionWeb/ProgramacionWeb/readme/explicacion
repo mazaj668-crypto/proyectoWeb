@@ -1,0 +1,53 @@
+# Catálogo de Videojuegos
+
+## Objetivo del proyecto
+Desarrollar una mini-aplicación web interactiva para gestionar una colección de videojuegos utilizando JavaScript en el frontend, aplicando manipulación del DOM, validaciones de formularios y persistencia de datos mediante LocalStorage.
+
+## Descripción funcional
+La aplicación permite registrar, visualizar, editar y eliminar videojuegos, manteniendo la información almacenada en LocalStorage.
+
+## Tecnologías utilizadas
+- HTML5
+- CSS3
+- JavaScript
+- LocalStorage
+
+## Checklist de cumplimiento
+- [x] Estructura HTML, CSS y JS separada
+- [x] Manipulación dinámica del DOM
+- [x] Eventos con addEventListener
+- [x] Formulario con más de 4 campos
+- [x] Validaciones con regex y longitud
+- [x] Validación cruzada
+- [x] event.preventDefault()
+- [x] Persistencia con LocalStorage
+- [x] CRUD básico
+
+## Instrucciones de ejecución
+1. Descomprimir el proyecto.
+2. Abrir index.html en el navegador.
+3. Utilizar el formulario para gestionar videojuegos.
+
+## Capturas sugeridas
+- Pantalla principal
+- Validaciones
+- Registro exitoso
+- Persistencia de datos
+- Edición y eliminación
+
+## Commits sugeridos
+1. feat: estructura inicial del proyecto
+2. feat: formulario y validaciones
+3. feat: persistencia con localStorage y CRUD
+4. docs: agregar README y evidencias
+
+## Preguntas de defensa
+
+### ¿Por qué elegiste esta temática?
+Permite aplicar formularios, validaciones y almacenamiento de datos de forma práctica.
+
+### ¿Por qué LocalStorage?
+Permite persistir información sin necesidad de un backend.
+
+### Limitación de LocalStorage
+Los datos quedan almacenados solo en el navegador del usuario.
